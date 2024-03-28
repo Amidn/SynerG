@@ -1,0 +1,21 @@
+# GW170817 Multi-Messenger Analysis Dependencies
+# ================================================
+# Install: pip install -r requirements.txt
+
+# Core scientific stack
+numpy>=1.21
+scipy>=1.7
+matplotlib>=3.5
+astropy>=5.0
+
+# Gravitational wave data
+gwpy>=3.0
+gwosc>=0.7
+python-ligo-lw>=1.8
+
+# Sky maps (HEALPix)
+healpy>=1.16
+
+# Optional but recommended
+h5py>=3.0
+ligo.skymap>=1.0
